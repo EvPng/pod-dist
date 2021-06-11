@@ -6,12 +6,11 @@
     line-height: 1.285;
     width: 100%;
     position: relative;
-    /* padding: 20px;
-    text-align: center; */
     --lendica-background-color-highlight: #2e3192;
     --lendica-background-color-default: #F2F2F8;
     --lendica-text-color-light: #F2F2F8;
     --lendica-text-color-dark: #1D1D1F;
+    z-index: 999;
 }
 
 .lendica-finance-content-wrapper {
@@ -19,10 +18,6 @@
     padding: 20px;
     text-align: center;
 }
-
-/* .lendica-finance-fab {
-    position: absolute;
-} */
 
 .lendica-finance-compact {
     padding: 8px;
